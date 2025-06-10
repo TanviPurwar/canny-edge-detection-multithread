@@ -1,6 +1,7 @@
 # CUDA-Based Canny Edge Detection for Image Batches
 
 Course: Parallel Programming and Algorithms
+
 This project implements a parallelized version of the Canny Edge Detection algorithm using CUDA. It processes batches of 200×200 BMP images by performing grayscale conversion, Gaussian blur, Sobel edge detection, non-maximum suppression, double thresholding, and hysteresis — all on the GPU.
 
 ## 🔧 Features
